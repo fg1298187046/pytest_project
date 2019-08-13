@@ -17,3 +17,10 @@ class Test_T:
         self.action.find_mobile_network()
         time.sleep(2)
         self.action.switch_network()
+       
+    def test_network2(self):
+        import time
+
+        self.action.find_mobile_network()
+        time.sleep(2)
+        self.action.switch_network()
