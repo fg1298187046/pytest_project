@@ -16,5 +16,5 @@ class Test_Search(object):
 
     @pytest.mark.parametrize('args', find_yaml_data('yaml_data', 'data'))
     def test_click(self,args):
-        # self.page.input_search()
+        # self.page.input_search
         print(args['username'],args['password'])
