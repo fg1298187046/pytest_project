@@ -1,3 +1,7 @@
 data:
-  - "123"
-  - "456"
+  test_login:
+          username: "1298187046@qq.com"
+          password: "fengge520"
+  test_login02:
+          username: "1852766414@qq.com"
+          password: "fengge520"
